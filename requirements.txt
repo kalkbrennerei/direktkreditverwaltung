@@ -2,3 +2,4 @@ Django
 model_bakery
 reportlab
 pyyaml
+python-dateutil

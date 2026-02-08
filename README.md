@@ -29,7 +29,7 @@ Nach Erfordernissen eines Mietshäuser Syndikat Projekts.
 ## Setup
 
 - Use a modern python version.
-- `pip install -r reqirements.txt`
+- `pip install -r requirements.txt`
 - In `dkapp/static/custom/` are three template files which are used for the PDF generation. Copy the files in the same location removing the `_template` from the filename. Replace the copied fieles with your content.
 - `python manage.py collectstatic` copies static files (e.g. your custom files) to the root folder.
 - `python manage.py runserver` starts the server.
